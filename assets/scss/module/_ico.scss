@@ -1,0 +1,54 @@
+
+.ico-blank {
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: url("/img/ico/ico-blank.svg") 50% 50% / contain no-repeat;
+  vertical-align: baseline;
+
+  &--grey {
+    background: url("/img/ico/ico-blank-grey.svg") 50% 50% / contain no-repeat;
+  }
+}
+
+.ico-arrow {
+  display: inline-flex;
+  width: 17px;
+  height: 14px;
+  background: url("/img/ico/ico-arrow.svg") 50% 50% / contain no-repeat;
+
+  &.--grey {
+    background: url("/img/ico/ico-arrow-grey.svg") 50% 50% / contain no-repeat;
+  }
+
+  &.--left {
+    transform: rotate(180deg);
+  }
+}
+
+
+.--git {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("/img/sns/sns-logo_git.svg") center center / contain no-repeat;
+  font-size: 0;
+}
+
+.--link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("/img/sns/sns-logo_linkedin.svg") center center / contain no-repeat;
+  font-size: 0;
+}
+
+.--code {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("/img/sns/sns-logo_code.svg") center center / contain no-repeat;
+  font-size: 0;
+}

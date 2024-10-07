@@ -1,0 +1,26 @@
+// ---------- Color system ----------//
+
+$white: #fff;
+$black: #000;
+$grey: #b7b9bf;
+
+
+// ---------- font ----------//
+$opacity: 0.5;
+$font-size-base: 12px;
+
+// ---------- breakpoints ----------//
+
+$bp-pc: 1024px;
+$bp-tb: 768px;
+
+// ---------- Components ----------//
+
+$header-height-pc: 110px;
+$header-height-sp: 80px;
+
+// ---------- Other ----------//
+
+$trans: all 0.3s ease;
+$trans-fade: opacity 1s cubic-bezier(0.12, 0, 0.39, 0) 0s;
+$trans-fade-fast: opacity 0.5s cubic-bezier(0.12, 0, 0.39, 0) 0s;

@@ -1,0 +1,67 @@
+// ----------------------------------------------
+//  vue-awesome-paginate
+// ----------------------------------------------
+
+ul#componentContainer {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-size: 14px;
+}
+
+.number-buttons {
+  @include flex-center;
+  flex-direction: column;
+  width: 18px;
+
+  &:hover {
+    color: $grey;
+  }
+}
+
+.active-page {
+  &::after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 0.75px;
+    background-color: $black;
+  }
+}
+
+.next-button {
+  width: 16.6px;
+  height: 8.29px;
+  transition: 0.2s;
+  background-image: url("/img/common/ico-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 0;
+
+  &:hover {
+    background-image: url("/img/common/ico-arrow-grey.svg");
+  }
+}
+
+.back-button {
+  width: 16.6px;
+  height: 8.29px;
+  transform: rotate(180deg);
+  transition: 0.2s;
+  background-image: url("/img/common/ico-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 0;
+
+  &:hover {
+    background-image: url("/img/common/ico-arrow-grey.svg");
+  }
+}
+
+@media (min-width:$bp-tb) {
+  ul#componentContainer {
+    font-size: 15px;
+  }
+}
+

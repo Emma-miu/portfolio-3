@@ -1,0 +1,37 @@
+.contact {
+
+  &__text {
+    text-align: center;
+
+    &.--jp {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__block {
+    margin-bottom: 70px;
+  }
+
+  &__btnwrap {
+    @include flexSet($align:center, $dir:row, $justy:center);
+    gap: 50px;
+    margin-top: 65px;
+  }
+}
+
+@media (min-width:$bp-pc) {
+  .contact {
+    &__block {
+      margin-bottom: 55px;
+    }
+
+    &__btnwrap {
+      margin-top: 75px;
+    }
+  }
+
+}
+
+
+
+

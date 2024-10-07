@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1182" height="465" viewBox="0 0 1182 465">
+  <g id="logo" transform="translate(-352 -1027)">
+    <text id="p" transform="translate(352 1352)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">p</tspan></text>
+    <text id="o" transform="translate(534 1391)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">o</tspan></text>
+    <text id="r" transform="translate(705 1362)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">r</tspan></text>
+    <text id="t" transform="translate(839 1391)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">t</tspan></text>
+    <text id="f" transform="translate(946 1387)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">f</tspan></text>
+    <text id="l" transform="translate(1209 1387)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">l</tspan></text>
+    <text id="i" transform="translate(1296 1417)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">i</tspan></text>
+    <text id="o-2" data-name="o" transform="translate(1051 1362)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">o</tspan></text>
+    <text id="o-3" data-name="o" transform="translate(1364 1373)" fill="#fff" font-size="300" font-family="Playfair Display" font-weight="700"><tspan x="0" y="0">o</tspan></text>
+  </g>
+</svg>

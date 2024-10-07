@@ -1,0 +1,14 @@
+.js-fade-in {
+  transition: $trans-fade;
+  opacity: 0;
+
+  &.js-is-show {
+    opacity: 1;
+  }
+}
+
+.js-transition-delay {
+  transition-delay: 1s;
+}
+
+

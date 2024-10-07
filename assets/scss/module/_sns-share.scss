@@ -1,0 +1,32 @@
+.sns-share {
+
+  &__list {
+    @include flex-center;
+    margin: 90px auto;
+  }
+
+  &__item {
+    width: 25px;
+    height: 25px;
+    &.--x {
+      background: url("/img/sns-logo_x.svg") center center / contain no-repeat;
+    }
+
+    &.--facebook {
+      background: url("/img/sns-logo_facebook.svg") center center / contain no-repeat;
+    }
+
+    + .sns-share__item {
+      margin-left: 19px;
+    }
+
+  }
+}
+
+.sns-share-item {
+  &__link {
+    display: block;
+    height: 100%;
+  }
+}
+

@@ -1,0 +1,105 @@
+// ----------------------------------------------
+//  font
+// ----------------------------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap&?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@mixin font-nunito {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-variation-settings:
+    "wdth" 100, "YTLC" 500;
+}
+
+@mixin font-nunito-regular {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings:
+    "wdth" 100, "YTLC" 500;
+}
+
+@mixin font-nunito-medium {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-variation-settings:
+    "wdth" 100, "YTLC" 500;
+}
+
+@mixin font-nunito-bold {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-variation-settings:
+    "wdth" 100, "YTLC" 500;
+}
+
+
+@mixin font-zen {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-zen-medium {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin font-zen-bold {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin font-play-normal {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin font-play-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+// ----------------------------------------------
+//  flexbox
+// ----------------------------------------------
+
+// flexbox
+@mixin flex($flex-justify:flex-start, $flex-align:flex-start) {
+  display: flex;
+  align-items: $flex-align;
+  justify-content: $flex-justify;
+}
+
+// flexセット
+@mixin flexSet($align:flex-start, $justy:flex-start, $dir:row, $wrap:nowrap) {
+  display: flex;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  align-items: $align;
+  justify-content: $justy;
+}
+
+// flexboxセンタリング
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

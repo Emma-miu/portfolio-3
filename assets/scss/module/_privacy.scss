@@ -1,0 +1,53 @@
+
+.privacy {
+  &__title {
+    @include font-nunito-medium;
+    margin-bottom: 60px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .--jp {
+    margin-bottom: 60px;
+    letter-spacing: 0.01em;
+
+    .privacy-text__h3 {
+      @include font-zen-bold;
+    }
+  }
+
+  #eng {
+    scroll-margin-top: calc(var(--header-height) + 20px);
+  }
+}
+
+.privacy-text {
+  &__h3 {
+    @include font-nunito-bold;
+    margin-bottom: 13px;
+    line-height: 1.5;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: $bp-tb) {
+  .privacy {
+    &__title {
+      margin-bottom: 80px;
+      font-size: 18px;
+    }
+
+    .--jp {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+

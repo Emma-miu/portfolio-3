@@ -1,0 +1,53 @@
+.work-list {
+  margin-bottom: 100px;
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__link {
+    display: block;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 2.08;
+
+    img {
+      transition: all 0.2s linear;
+
+      &:hover {
+        transform: scale(1.02);
+        filter: brightness(80%);
+      }
+    }
+  }
+}
+
+
+
+@media (min-width:$bp-tb) {
+  .work-list {
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 50px;
+      }
+    }
+
+    &__link {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+
+}
+
