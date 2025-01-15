@@ -28,27 +28,28 @@
   }
 }
 
-
-.--git {
+.ico-sns {
   display: block;
   width: 24px;
   height: 24px;
-  background: url("/img/sns/sns-logo_git.svg") center center / contain no-repeat;
   font-size: 0;
+  background: $black;
+
+  &.--git {
+    mask: url("/img/sns/sns-logo_git.svg") center center / contain no-repeat;
+  }
+
+  &.--link {
+    mask: url("/img/sns/sns-logo_linkedin.svg") center center / contain no-repeat;
+  }
+
+  &.--code {
+    mask: url("/img/sns/sns-logo_code.svg") center center / contain no-repeat;
+  }
 }
 
-.--link {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: url("/img/sns/sns-logo_linkedin.svg") center center / contain no-repeat;
-  font-size: 0;
-}
 
-.--code {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: url("/img/sns/sns-logo_code.svg") center center / contain no-repeat;
-  font-size: 0;
-}
+
+
+
+

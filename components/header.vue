@@ -50,9 +50,9 @@
             </nav>
             <div class="header-menu__bottom">
               <div class="header-menu__link">
-                <a href="https://github.com/Emma-miu" target="_blank" class="--git" rel="noopener noreferrer">Github</a>
-                <a href="https://codepen.io/emma-miu" target="_blank" class="--code" rel="noopener noreferrer">Codepen</a>
-                <a href="https://www.linkedin.com/in/emmafradin/" target="_blank" class="--link">Say Hi</a>
+                <a href="https://github.com/Emma-miu" target="_blank" class="ico-sns --git" rel="noopener noreferrer">Github</a>
+                <a href="https://codepen.io/emma-miu" target="_blank" class="ico-sns --code" rel="noopener noreferrer">Codepen</a>
+                <a href="https://www.linkedin.com/in/emmafradin/" target="_blank" class="ico-sns --link">Say Hi</a>
               </div>
               
               

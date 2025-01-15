@@ -54,6 +54,10 @@ body {
     background: $black;
     color: $white;
 
+    .ico-sns {
+      background: $white;
+    }
+
     .header {
       background-color: $black;
       &__logo {
@@ -67,20 +71,29 @@ body {
           }
         }
       }
+
+      &__menu {
+        &.js-menu-open {
+
+          .ico-sns {
+            background: $black;
+          }
+        }
+      }
     }
 
     .header-nav-toggle__line {
-      background: $white !important;
+      background: $white;
 
       &.js-open {
-        background: $black !important;
+        background: $black;
       }
     }
 
     .header__nav-toggle {
       &.js-open {
         .header-nav-toggle__line {
-          background: $black !important;
+          background: $black;
         }
       }
     }
@@ -89,25 +102,6 @@ body {
       border-bottom: 0.5px solid $white !important;
     }
 
-    .footer-insta {
-      background: url("/img/sns-logo_instagram-white.svg") center center / contain no-repeat !important;
-    }
-
-    .footer-stu {
-      background: url("/img/common/stu-logo-white.svg") center center / contain no-repeat !important;
-    }
-
-    .header-insta {
-      background: url("/img/sns-logo_instagram.svg") center center / contain no-repeat !important;
-    }
-
-    .header-stu {
-      background: url("/img/common/stu-logo.svg") center center / contain no-repeat !important;
-    }
-
-    .main {
-      padding-top: calc(var(--header-height) + 50px);
-    }
   }
 
 
@@ -163,17 +157,11 @@ a {
 
 .main {
   padding-top: calc(var(--header-height) + 70px);
-  padding-bottom: 90px;
 
   &.--top {
     @include flex(flex-start, center);
     height: 100vh;
     padding: 0;
-  }
-
-  &:has(.isWork),
-  &:has(.isNews) {
-    padding-top: calc(var(--header-height) + 25px);
   }
 }
 
@@ -224,16 +212,6 @@ a {
 @media (min-width:$bp-tb) {
   body {
     font-size: 14px;
-  }
-
-  .main {
-    padding-top: calc(var(--header-height) + 80px);
-    padding-bottom: 130px;
-
-    &:has(.isWork),
-    &:has(.isNews) {
-      padding-top: calc(var(--header-height) + 50px);
-    }
   }
 
   .--sp {

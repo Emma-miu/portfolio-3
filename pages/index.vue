@@ -18,9 +18,9 @@ definePageMeta({
         <li class="link-list__item"><a href="/news">Work</a></li>
         <li class="link-list__item"><a href="/contact">Contact</a></li>
         <li class="link-list__item --sns">
-          <a href="https://github.com/Emma-miu" target="_blank" class="--git" rel="noopener noreferrer">Github</a>
-          <a href="https://codepen.io/emma-miu" target="_blank" class="--code" rel="noopener noreferrer">Codepen</a>
-          <a href="https://www.linkedin.com/in/emmafradin/" target="_blank"  class="--link">Linkedin</a>
+          <a href="https://github.com/Emma-miu" target="_blank" class="ico-sns --git" rel="noopener noreferrer">Github</a>
+          <a href="https://codepen.io/emma-miu" target="_blank" class="ico-sns --code" rel="noopener noreferrer">Codepen</a>
+          <a href="https://www.linkedin.com/in/emmafradin/" target="_blank"  class="ico-sns --link">Linkedin</a>
         </li>
       </ul>
     </div>
