@@ -2,18 +2,6 @@
   const { currentRoute } = useRouter();
   const routeName = currentRoute.value.name;
   let page = routeName.charAt(0).toUpperCase() + routeName.slice(1);
-
-  if (page === 'ContactConfirm' || page === 'ContactComplete') {
-    page = 'Contact';
-  } else if (page === 'Privacy') {
-    page = '';
-  } else if (page === 'Work-id') {
-    page = 'Work';
-  } else if (page === 'News-id') {
-    page = 'News';
-  }
-
-
 </script>
 
 <template>
@@ -37,11 +25,8 @@
                 <li class="link-list__item">
                   <a href="/about" class="js-nav-close js-link-name">About</a>
                 </li>
-                <!-- <li class="link-list__item">
-                  <a href="/work" class="js-nav-close js-link-name">Work</a>
-                </li> -->
                 <li class="link-list__item">
-                  <a href="/news" class="js-nav-close js-link-name">Works</a>
+                  <a href="/work" class="js-nav-close js-link-name">Works</a>
                 </li>
                 <li class="link-list__item">
                   <a href="/contact" class="js-nav-close js-link-name">Contact</a>

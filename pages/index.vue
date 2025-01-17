@@ -14,8 +14,7 @@ definePageMeta({
       </h1>
       <ul class="link-list js-inview js-transition-delay js-fade-in">
         <li class="link-list__item"><a href="/about">About</a></li>
-        <!-- <li class="link-list__item"><a href="/work">Work</a></li> -->
-        <li class="link-list__item"><a href="/news">Work</a></li>
+        <li class="link-list__item"><a href="/work">Works</a></li>
         <li class="link-list__item"><a href="/contact">Contact</a></li>
         <li class="link-list__item --sns">
           <a href="https://github.com/Emma-miu" target="_blank" class="ico-sns --git" rel="noopener noreferrer">Github</a>

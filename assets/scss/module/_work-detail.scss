@@ -1,93 +1,54 @@
 .work-detail {
-  figure {
-    margin-bottom: 20px;
+  &__date {
+    @include font-nunito-bold;
+    margin-bottom: 30px;
+    font-size: 11px;
   }
 
-  h2 {
-    margin-bottom: 40px;
-    font-size: 18px;
-    text-align: center;
+  &__title {
+    @include font-zen-medium;
+    margin-bottom: 25px;
+    font-size: 15px;
+
+    &:has(+ .work-detail__subtitle) {
+      margin-bottom: 15px;
+    }
   }
 
-  div:has(iframe) {
-    margin-bottom: 40px;
-  }
-
-  &__table {
-    width: 100%;
-
-    tr {
-      display: block;
-      padding-bottom: 40px;
-    }
-
-    th,
-    td {
-      display: block;
-      width: 100%;
-    }
-
-    th {
-      @include font-nunito-bold;
-      margin-bottom: 20px;
-    }
-
-    .--jp + p {
-      margin-top: 30px;
-    }
-
-    .--jp + p.--close {
-      margin-top: 15px;
-    }
+  &__subtitle {
+    @include font-nunito-regular;
+    margin-bottom: 25px;
+    font-size: 11px;
   }
 
   &__button {
-    margin: 90px auto 0;
-  }
-
-  &__container {
-    max-width: 670px;
     margin: 0 auto;
   }
 
-}
+  &__content {
+    strong {
+      @include font-nunito-bold;
 
-@media (min-width:$bp-pc) {
-  .work-detail {
-    figure {
-      margin-bottom: 50px;
-    }
-
-    h2 {
-      margin-bottom: 65px;
-      font-size: 26px;
-    }
-
-    &__table {
-      margin-bottom: 30px;
-
-      tr {
-        display: flex;
-        padding-bottom: 50px;
+      .--jp {
+        @include font-zen-bold;
       }
-
-      th {
-        display: inline-block;
-        width: 15%;
-        margin-bottom: 0;
-      }
-
-      td {
-        display: inline-block;
-        width: 85%;
-      }
-    }
-
-    &__button {
-      margin-top: 115px;
     }
   }
 }
 
+@media (min-width: $bp-tb) {
+  .work-detail {
+    &__date {
+      font-size: 12px;
+    }
 
+    &__title {
+      font-size: 18px;
+    }
 
+    &__subtitle {
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+  }
+}
