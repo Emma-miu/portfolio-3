@@ -8,20 +8,31 @@ definePageMeta({
 
 <template>
   <NuxtLayout name="top">
-    <div class="container-S">
-      <h1 class="top-logo js-inview js-fade-in">
-        <img src="/public/img/common/header-logo-black.svg" alt="fragile">
-      </h1>
-      <ul class="link-list js-inview js-transition-delay js-fade-in">
-        <li class="link-list__item"><a href="/about">About</a></li>
-        <li class="link-list__item"><a href="/work">Works</a></li>
-        <li class="link-list__item"><a href="/contact">Contact</a></li>
-        <li class="link-list__item --sns">
-          <a href="https://github.com/Emma-miu" target="_blank" class="ico-sns --git" rel="noopener noreferrer">Github</a>
-          <a href="https://codepen.io/emma-miu" target="_blank" class="ico-sns --code" rel="noopener noreferrer">Codepen</a>
-          <a href="https://www.linkedin.com/in/emmafradin/" target="_blank"  class="ico-sns --link">Linkedin</a>
-        </li>
-      </ul>
+    <div class="title-scroll">
+      <h2 class="title-scroll__title">
+        <a href="/about">ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・</a>
+      </h2>
+      <h2 class="title-scroll__title">
+        <a href="/about">ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・ABOUT・</a>
+      </h2>
+    </div>
+
+    <div class="title-scroll">
+      <h2 class="title-scroll__title">
+        <a href="/work">WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・</a>
+      </h2>
+      <h2 class="title-scroll__title">
+        <a href="/work">WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・WORK・</a>
+      </h2>
+    </div>
+
+    <div class="title-scroll">
+      <h2 class="title-scroll__title">
+        <a href="/contact">CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・</a>
+      </h2>
+      <h2 class="title-scroll__title">
+        <a href="/contact">CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・CONTACT・</a>
+      </h2>
     </div>
   </NuxtLayout>
 </template>

@@ -2,7 +2,7 @@
 
 <template>
   <div id="wrapper">
-    <main class="main --top">
+    <main class="top">
       <slot/>
     </main>
   </div>

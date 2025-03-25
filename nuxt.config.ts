@@ -16,15 +16,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        // {
-        //   rel: "preconnect",
-        //   href: "https://fonts.googleapis.com",
-        // },
-        // {
-        //   rel: "stylesheet",
-        //   href: "https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap",
-        //   crossorigin: "",
-        // },
         { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
         { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/img/apple-touch-icon.png' },
         { rel: 'icon', type: 'image/png', sizes: '32x32',href: '/img/favicon-32x32.png' },
@@ -45,8 +36,6 @@ export default defineNuxtConfig({
         lang: 'en'
       },
       script: [
-        //{ src: `https://www.google.com/recaptcha/api.js?render=${process.env.NUXT_PUBLIC_GOOGLE_RECAPTCHA_SITE_KEY}` },
-        //{ src:'https://webfont.fontplus.jp/accessor/script/fontplus.js?AAkcLKWGgCg%3D&box=EBd5kfRxag4%3D&aa=1&ab=2' },
         { src:'/js/jquery-3.7.1.min.js' },
         { src:'/js/jquery.inview.min.js' },
         { src:'/js/script.js' },
@@ -58,7 +47,5 @@ export default defineNuxtConfig({
       //   'GAcode': ['innerHTML']
       // }
     },
-    //pageTransition: { name: 'page', mode: 'out-in' },
-    //layoutTransition: { name: 'layout', mode: 'out-in' }
   },
 })

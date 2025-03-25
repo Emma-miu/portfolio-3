@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { work } from '~/types/work';
 
-const { $isLocaleJa } = useNuxtApp();
 defineProps({
   work: {
     type: Object as () => work,
